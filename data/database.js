@@ -18,9 +18,11 @@ console.log('Trying to connect to db');
   console.log('Connection failed.');
   await client.close();
   console.log('Connection closed.');
-}
-*/
+}*/
+
 const database = client.db(dbName);
+const { MongoClient } = require('mongodb');
+
 
 async function run() {
   // 1. Zuerst aktiv auf die Verbindung warten
