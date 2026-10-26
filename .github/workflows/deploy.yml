@@ -12,7 +12,7 @@ jobs:
       MONGO_DB_CLUSTER_ADDRESS: cluster0.56ahkmf.mongodb.net/
       MONGO_DB_USERNAME: HuerolTueren
       MONGO_DB_PASSWORD: N-eo-190
-      PORT: 8080
+      PORT: 80
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
