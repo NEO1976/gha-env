@@ -21,7 +21,6 @@ console.log('Trying to connect to db');
 }*/
 
 const database = client.db(dbName);
-const { MongoClient } = require('mongodb');
 
 
 async function run() {
